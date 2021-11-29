@@ -7,6 +7,6 @@ import ru.samitin.professional.model.data.DataModel
 
 interface ApiService {
 
-    @GET("world/search")
+    @GET("words/search")
     fun search(@Query("search") wordToSearch: String): Observable<List<DataModel>>
 }

@@ -51,7 +51,7 @@ class MainPresenterImpl<T:AppState,V:View>(
             }
 
             override fun onComplete() {
-                TODO("Not yet implemented")
+
             }
         }
     }

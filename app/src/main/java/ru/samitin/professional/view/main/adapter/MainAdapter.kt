@@ -43,7 +43,7 @@ class MainAdapter (
         }
     }
     private fun openInNewWindow(listItemData:DataModel){
-
+        onListItemClickLister.onItemClick(listItemData)
     }
     interface OnListItemClickListener{
         fun onItemClick(data: DataModel)
